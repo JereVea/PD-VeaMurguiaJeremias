@@ -1,0 +1,23 @@
+body{
+    background-color: #faebd7;
+    color: #3b3b3b;
+}
+
+ul{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+li, p{
+    font-size: large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title{
+    text-decoration: underline;
+}
+
+.img{
+    height: 400px;
+    width: 800px;
+}
