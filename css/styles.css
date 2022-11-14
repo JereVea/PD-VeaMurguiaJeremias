@@ -6,6 +6,29 @@
     format("truetype");
 }
 
+@media (max-width: 575px) {
+    body {
+        color: blue;
+        background-color: rgba(247, 133, 133, 0.61);
+    }
+    .sectionSection {
+        width: 90%;
+        padding: 20px;
+    }
+    aside{
+        display: none;
+    }
+}
+
+@media (min-width: 575px) {
+    .phone {
+        display: none;
+    }
+    .sectionSection {
+        width: 85%;
+    }
+}
+
 body {
     font-family: "robotoSlab";
     margin: 0%;
@@ -29,7 +52,6 @@ header {
 }
 
 .title {
-    width: 50%;
     text-align: center;
     font-family: 'Kanit', sans-serif;
     font-size: 4em;
@@ -42,6 +64,7 @@ header {
     justify-content: space-around;
     background-color: #2c3338;
     margin: 10px;
+    width: auto;
 }
 
 .icon {
@@ -60,7 +83,7 @@ nav {
 .divFlex {
     display: flex;
     justify-content: space-around;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
 }
 
 .flex_item{
@@ -79,7 +102,6 @@ a {
 }
 
 .sectionSection {
-    width: 80%;
     padding: 15px;
 }
 
@@ -119,6 +141,10 @@ footer {
     background-color: #24292d;
     color: #ffffff;
     min-height: 20vh;
+}
+
+iframe {
+    margin: 10px;
 }
 
 .aH3 {
