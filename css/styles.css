@@ -1,152 +1,156 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@1,300&display=swap");
 
 @font-face {
-    font-family: "robotoSlab";
-    src: url("/font/RobotoSlab.ttf")
-    format("truetype");
+  font-family: "robotoSlab";
+  src: url("/font/RobotoSlab.ttf") format("truetype");
 }
 
 @media (max-width: 575px) {
-    body {
-        color: blue;
-        background-color: rgba(247, 133, 133, 0.61);
-    }
-    .sectionSection {
-        width: 90%;
-        padding: 20px;
-    }
-    aside{
-        display: none;
-    }
+  body {
+    color: blue;
+    background-color: rgba(247, 133, 133, 0.61);
+  }
+  .sectionSection {
+    width: 90%;
+    padding: 20px;
+  }
+  aside {
+    display: none;
+  }
 }
 
 @media (min-width: 575px) {
-    .phone {
-        display: none;
-    }
-    .sectionSection {
-        width: 85%;
-    }
+  .phone {
+    display: none;
+  }
+  .sectionSection {
+    width: 85%;
+  }
 }
 
 body {
-    font-family: "robotoSlab";
-    margin: 0%;
-    padding: 0%;
+  font-family: "robotoSlab";
+  margin: 0%;
+  padding: 0%;
 }
 
 header {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    background-color: #24292d;
-    color: #ffffff;
-    min-height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #24292d;
+  color: #ffffff;
+  min-height: 20vh;
 }
 
 .flag {
-    height: 90px;
-    width: 145px;
-    margin: 10px;
+  height: 90px;
+  width: 145px;
+  margin: 10px;
 }
 
 .title {
-    text-align: center;
-    font-family: 'Kanit', sans-serif;
-    font-size: 4em;
-    margin: 10px;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 4em;
+  margin: 10px;
 }
 
 .iconFlex {
-    width: 25%;
-    display: flex;
-    justify-content: space-around;
-    background-color: #2c3338;
-    margin: 10px;
-    width: auto;
+  width: 25%;
+  display: flex;
+  justify-content: space-around;
+  background-color: #2c3338;
+  margin: 10px;
+  width: auto;
 }
 
 .icon {
-    height: 50px;
-    width: 50px;
-    margin: 5px;
+  height: 50px;
+  width: 50px;
+  margin: 5px;
 }
 
 nav {
-    background-color: #1c5e0f;
-    color: #000000;
-    padding: 15px;
-    min-height: 15vh;
+  background-color: #1c5e0f;
+  color: #000000;
+  padding: 15px;
+  min-height: 15vh;
 }
 
 .divFlex {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.flex_item{
-    text-align: center;
-    margin: 20px;
-    font-size: 2em;
+.flex_item {
+  text-align: center;
+  margin: 20px;
+  font-size: 2em;
 }
 
 a {
-    color: #000000;
-    text-decoration: none;
+  color: #000000;
+  text-decoration: none;
 }
 
 .sectionFlex {
-    display: flex;
+  display: flex;
 }
 
 .sectionSection {
-    padding: 15px;
+  padding: 15px;
 }
 
 .img {
-    text-align: center;
-    height: 500px;
-    width: 100%;
+  text-align: center;
+  height: 500px;
+  width: 100%;
 }
 
 .subTitle {
-    text-align: center;
-    font-family: 'Kanit', sans-serif;
-    font-size: 3em;
+  text-align: center;
+  font-family: "Kanit", sans-serif;
+  font-size: 3em;
 }
 
-p, li {
-    font-size: 1.2em;
+p,
+li {
+  font-size: 1.2em;
 }
 
 .sectionAside {
-    width: 20%;
-    padding: 15px;
+  width: 20%;
+  padding: 15px;
 }
 
 .fixedItem {
-    position: fixed;
-    width: auto;
-    text-align: center;
-    word-wrap: break-word;
+  position: fixed;
+  width: auto;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.card {
+  margin: 15px;
 }
 
 footer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #24292d;
-    color: #ffffff;
-    min-height: 20vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #24292d;
+  color: #ffffff;
+  min-height: 20vh;
 }
 
 iframe {
-    margin: 10px;
+  margin: 10px;
 }
 
 .aH3 {
-    color: #ffffff;
+  color: #ffffff;
 }
