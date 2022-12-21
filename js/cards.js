@@ -152,9 +152,9 @@ armarHTML = async () => {
 
         const img = document.createElement("img");
         img.className = "card-img-top";
-        img.src =  libro.portada;
-        //img.src = 'assets/img/books/'+i+'.png';
-        //i++;
+        //img.src =  libro.portada;
+        img.src = 'assets/img/books/'+i+'.png';
+        i++;
 
         const cardbody = document.createElement("div");
         cardbody.className = "card-body p-4";
