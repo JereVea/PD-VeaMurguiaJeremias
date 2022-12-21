@@ -1,8 +1,9 @@
 /*
 class Libro {
-  constructor(titulo, saga, rating, precio) {
+  constructor(titulo, saga, portada, rating, precio) {
     this.titulo = titulo;
     this.saga = saga;
+    this.portada = portada;
     this.rating = rating;
     this.precio = precio;
   }
@@ -152,7 +153,7 @@ armarHTML = async () => {
 
         const img = document.createElement("img");
         img.className = "card-img-top";
-        img.src =  "assets/img/books/1.png";
+        img.src =  libro.portada;
         //img.src = 'assets/img/books/'+i+'.png';
         //i++;
 
