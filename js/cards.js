@@ -13,116 +13,118 @@ let libros = [
   {
     "titulo": "El Camino de los Reyes",
     "saga": "El Archivo de las Tormentas",
-    "portada": "src/slatwok.png",
+    "portada": "assets/img/books/1.png",
     "rating": 5,
     "precio": 8499
 },
 {
     "titulo": "Palabras Radiantes",
     "saga": "El Archivo de las Tormentas",
-    "portada": "src/slawor.png",
+    "portada": "assets/img/books/2.png",
     "rating": 4,
     "precio": 8499
 },
 {
     "titulo": "Juramentada",
     "saga": "El Archivo de las Tormentas",
-    "portada": "src/slao.png",
+    "portada": "assets/img/books/3.png",
     "rating": 5,
     "precio": 8499
 },
 {
     "titulo": "Ritmos de Guerra",
     "saga": "El Archivo de las Tormentas",
-    "portada": "src/slarow.png",
+    "portada": "assets/img/books/4.png",
     "rating": 5,
     "precio": 8499
 },
 {
     "titulo": "Esquirlas del Amanecer",
     "saga": "El Archivo de las Tormentas",
-    "portada": "src/slads.png",
+    "portada": "assets/img/books/5.png",
     "rating": 4,
     "precio": 3649
 },
 {
     "titulo": "El Imperio Final",
     "saga": "Nacidos de la Bruma",
-    "portada": "src/mbtfe.png",
+    "portada": "assets/img/books/6.png",
     "rating": 5,
     "precio": 6599
 },
 {
     "titulo": "El Pozo de la Ascencion",
     "saga": "Nacidos de la Bruma",
-    "portada": "src/mbwoa.png",
+    "portada": "assets/img/books/7.png",
     "rating": 4,
     "precio": 6599
 },
 {
     "titulo": "El Heroe de las Eras",
     "saga": "Nacidos de la Bruma",
-    "portada": "src/mbhoa.png",
+    "portada": "assets/img/books/8.png",
     "rating": 5,
     "precio": 6599
 },
 {
     "titulo": "Aleacion de Ley",
     "saga": "Nacidos de la Bruma",
-    "portada": "src/mbaol.png",
+    "portada": "assets/img/books/9.png",
     "rating": 3,
     "precio": 3649
 },
 {
     "titulo": "Sombras de Identidad",
     "saga": "Nacidos de la Bruma",
-    "portada": "src/mbsos.png",
+    "portada": "assets/img/books/10.png",
     "rating": 4,
     "precio": 4749
 },
 {
     "titulo": "Brazales de duelo",
     "saga": "Nacidos de la Bruma",
-    "portada": "src/mbtbom.png",
+    "portada": "assets/img/books/11.png",
     "rating": 5,
     "precio": 4999
 },
 {
     "titulo": "EL Metal Perdido",
     "saga": "Nacidos de la Bruma",
-    "portada": "src/mbtlm.png",
+    "portada": "assets/img/books/12.png",
     "rating": 5,
     "precio": 7999
 },
 {
     "titulo": "El Aliento de los Dioses",
     "saga": "El Aliento de los dioses",
-    "portada": "src/wb.png",
+    "portada": "assets/img/books/13.png",
     "rating": 4,
     "precio": 6599
 },
 {
     "titulo": "Elantris",
     "saga": "Elantris",
-    "portada": "src/elt.png",
+    "portada": "assets/img/books/14.png",
     "rating": 3,
     "precio": 5939
 },
 {
     "titulo": "Arena Blanca",
     "saga": "Arena Blanca",
-    "portada": "src/ws.png",
+    "portada": "assets/img/books/15.png",
     "rating": 2,
     "precio": 2999
 },
 {
     "titulo": "Arcanum Ilimitado",
     "saga": "Cosmere",
-    "portada": "src/aub.png",
+    "portada": "assets/img/books/16.png",
     "rating": 4,
     "precio": 6599
 }
 ];
+
+let i = 1;
 
 armarHTML = async () => {
 
@@ -134,7 +136,6 @@ armarHTML = async () => {
   */
 
   const contenedor = document.getElementById("contenedor");
-  let i = 0;
 
   libros.forEach((libro) => {
 
@@ -151,7 +152,9 @@ armarHTML = async () => {
 
         const img = document.createElement("img");
         img.className = "card-img-top";
-        img.src = libro.portada;
+        img.src =  libro.portada;
+        //img.src = 'assets/img/books/'+i+'.png';
+        //i++;
 
         const cardbody = document.createElement("div");
         cardbody.className = "card-body p-4";
