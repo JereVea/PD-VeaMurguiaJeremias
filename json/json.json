@@ -2,112 +2,112 @@
     {
         "titulo": "El Camino de los Reyes",
         "saga": "El Archivo de las Tormentas",
-        "portada": "/src/slatwok.png",
+        "portada": "src/slatwok.png",
         "rating": 5,
         "precio": 8499
     },
     {
         "titulo": "Palabras Radiantes",
         "saga": "El Archivo de las Tormentas",
-        "portada": "/src/slawor.png",
+        "portada": "src/slawor.png",
         "rating": 4,
         "precio": 8499
     },
     {
         "titulo": "Juramentada",
         "saga": "El Archivo de las Tormentas",
-        "portada": "/src/slao.png",
+        "portada": "src/slao.png",
         "rating": 5,
         "precio": 8499
     },
     {
         "titulo": "Ritmos de Guerra",
         "saga": "El Archivo de las Tormentas",
-        "portada": "/src/slarow.png",
+        "portada": "src/slarow.png",
         "rating": 5,
         "precio": 8499
     },
     {
         "titulo": "Esquirlas del Amanecer",
         "saga": "El Archivo de las Tormentas",
-        "portada": "/src/slads.png",
+        "portada": "src/slads.png",
         "rating": 4,
         "precio": 3649
     },
     {
         "titulo": "El Imperio Final",
         "saga": "Nacidos de la Bruma",
-        "portada": "/src/mbtfe.png",
+        "portada": "src/mbtfe.png",
         "rating": 5,
         "precio": 6599
     },
     {
         "titulo": "El Pozo de la Ascencion",
         "saga": "Nacidos de la Bruma",
-        "portada": "/src/mbwoa.png",
+        "portada": "src/mbwoa.png",
         "rating": 4,
         "precio": 6599
     },
     {
         "titulo": "El Heroe de las Eras",
         "saga": "Nacidos de la Bruma",
-        "portada": "/src/mbhoa.png",
+        "portada": "src/mbhoa.png",
         "rating": 5,
         "precio": 6599
     },
     {
         "titulo": "Aleacion de Ley",
         "saga": "Nacidos de la Bruma",
-        "portada": "/src/mbaol.png",
+        "portada": "src/mbaol.png",
         "rating": 3,
         "precio": 3649
     },
     {
         "titulo": "Sombras de Identidad",
         "saga": "Nacidos de la Bruma",
-        "portada": "/src/mbsos.png",
+        "portada": "src/mbsos.png",
         "rating": 4,
         "precio": 4749
     },
     {
         "titulo": "Brazales de duelo",
         "saga": "Nacidos de la Bruma",
-        "portada": "/src/mbtbom.png",
+        "portada": "src/mbtbom.png",
         "rating": 5,
         "precio": 4999
     },
     {
         "titulo": "EL Metal Perdido",
         "saga": "Nacidos de la Bruma",
-        "portada": "/src/mbtlm.png",
+        "portada": "src/mbtlm.png",
         "rating": 5,
         "precio": 7999
     },
     {
         "titulo": "El Aliento de los Dioses",
         "saga": "El Aliento de los dioses",
-        "portada": "/src/wb.png",
+        "portada": "src/wb.png",
         "rating": 4,
         "precio": 6599
     },
     {
         "titulo": "Elantris",
         "saga": "Elantris",
-        "portada": "/src/elt.png",
+        "portada": "src/elt.png",
         "rating": 3,
         "precio": 5939
     },
     {
         "titulo": "Arena Blanca",
         "saga": "Arena Blanca",
-        "portada": "/src/ws.png",
+        "portada": "src/ws.png",
         "rating": 2,
         "precio": 2999
     },
     {
         "titulo": "Arcanum Ilimitado",
         "saga": "Cosmere",
-        "portada": "/src/aub.png",
+        "portada": "src/aub.png",
         "rating": 4,
         "precio": 6599
     }
