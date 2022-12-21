@@ -1,143 +1,1120 @@
 <!DOCTYPE html>
 <html lang="es">
   <head>
-    <meta charset="UTF-8" />
+    <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="description" content="Recetas de cocina">
-    <meta name="keywords" content="Cocina, Mexico, Tacos,">
-    <meta name="author" content="Jermías Vea Murguía">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>Recetas culinarias extranjeras</title>
+    <meta name="description" content="Venta de libros del Cosmere" />
+    <meta name="keywords" content="Cosmere, Brandon Sanderson, Libros, Fantasia, El Archivo de las Tormentas, Nacidos de la Bruma, El Aliento de los Dioses" />
+    <meta name="author" content="Jeremías Vea Murguía" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/main.css" rel="stylesheet" />
+    <title>
+      CBD - Venta y entrega de tus sagas preferidas de Brandon Sanderson!!
+    </title>
   </head>
-  <body>
-    <header>
-      <img src="img/bandera.png" alt="Error al cargar la imagen" class="flag">
-      <h1 class="title">Recetas mexicanas</h1>
-      <div class="iconFlex">
-        <a href="https://wa.me/5491123951736" target="_blank">
-          <img src="img/wha.png" alt="Error al cargar la imagen" class="icon"></img>
-        </a>
-        <a href="https://es-la.facebook.com/" target="_blank">
-          <img src="img/face.png" alt="Error al cargar la imagen" class="icon"></img>
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-          <img src="img/inst.png" alt="Error al cargar la imagen" class="icon"></img>
-        </a>
-        <a href="https://www.youtube.com/" target="_blank">
-          <img src="img/ytb.png" alt="Error al cargar la imagen" class="icon"></img>
-        </a>
-      </div>
-    </header>
-    <nav>
-      <h2>Mas recetas faciles de hacer:</h2>
-      <hr/>
-      <div class="divFlex">
-        <a href="https://www.paulinacocina.net/recetas-comida-mexicana/20942" target="_blank" class="flex_item">Paulina Cocina</a>
-        <a href="https://www.recetasgratis.net/recetas-mexicanas" target="_blank" class="flex_item">Recetas Gratis</a>
-        <a href="https://www.pequerecetas.com/receta/comida-mexicana-5-recetas/" target="_blank" class="flex_item">Peque Recetas</a>
-        <a href="https://www.comedera.com/platos-comida-mexicana-recetas/" target="_blank" class="flex_item">Comedera</a>
+  <body id="page-top">
+    <video
+      src="assets/img/bg.mp4"
+      autoplay
+      loop
+      poster="assets/img/header-bg.jpg"
+    ></video>
+    <!-- Navigation-->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand" href="#page-top"
+          ><img class="navimg" src="assets/img/nabvar-logo.png" alt="..."
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          Menu
+          <i class="fas fa-bars ms-1"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ms-auto py-4 py-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#nosotros">Sobre Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#services">Servicios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#team">Equipo</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#portfolio">Sagas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="market.html">Market</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contact">Contactos</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
-    <div class="phone">
-      <h1>Esta en un celular</h1>
-    </div>
-    <section class="sectionFlex">
-      <section class="sectionSection">
-        <h2 class="subTitle">Bistec de res a la mexicana</h2>
-        <img src="img/img1.jpg" alt="Error al cargar la imagen" class="img"></img>
-        <p>Hoy vamos a preparar todo un clásico de la cocina mexicana, unos bistecs de res a la mexicana. Una receta muy fácil y rápida de hacer con ingredientes que seguro que tienes en tu despensa.</p>
-        <h2>Ingredientes del bistec de res a la mexicana para 2 personas</h2>
-      <ul>
-        <li>2 bistecs de ternera</li>
-        <li>1 diente de ajo</li>
-        <li>2 pimientos chile serrano</li>
-        <li>Media cebolla blanca o morada</li>
-        <li>4 tomates de pera</li>
-        <li>2 cucharadas de aceite de oliva virgen extra</li>
-        <li>1 pizca de sal</li>
-        <li>1 pizca de pimienta negra molida</li>
-        <li>Media pastilla de caldo concentrado de pollo</li>
-        <li>200 ml de agua</li>
-      </ul>
-      <h2>Cómo hacer bistec de res a la mexicana</h2>
-      <ol>
-        <li>Corta los bistecs en tiras de 2 cm de ancho.</li>
-        <li>Pela y corta los vegetales.</li>
-        <li>Saltea las tiras de ternera en una sartén con un poco de aceite de oliva virgen extra durante 2 minutos.</li>
-        <li>Retira la carne de la sartén, añade un poco de aceite y sofríe en ella durante 8 minutos el ajo, la cebolla y el pimiento picado, y salpimenta.</li>
-        <li>Incorpora el tomate troceado y cocina durante 5 minutos. Añade media pastilla de caldo de pollo, agua y cocina 5 minutos más.</li>
-        <li>Agrega la carne salteada, mezcla y finaliza la cocción tras 5 minutos a fuego medio.</li>
-        <li>Emplata en una cazuela de barro y sirve en el momento.</li>
-      </ol>
-      </section>
-      <aside class="sectionAside">
-        <div class="fixedItem">
-          <iframe src="https://www.youtube.com/embed/eI-rgzr1lC8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15007910.294888817!2d-111.64025257816783!3d23.314285701531734!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x84043a3b88685353%3A0xed64b4be6b099811!2sMexico!5e0!3m2!1sen!2sar!4v1663119236784!5m2!1sen!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    <!-- Masthead-->
+    <header class="masthead">
+      <div class="container">
+        <div class="masthead-subheading">Bienvenido</div>
+        <div class="masthead-heading text-uppercase">COSMERE BOOK DELIVERY</div>
+        <a class="btn btn-primary btn-xl text-uppercase" href="#portfolio"
+          >VIAJE ANTES QUE DESTINO!!</a
+        >
+      </div>
+    </header>
+    <!-- About-->
+    <section class="page-section" id="nosotros">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">Cosmere Book Delivery</h2>
+          <h3 class="section-subheading text-muted">
+            Venta y envio de libros de Brandon Sanderson pertenecientes al
+            Cosmere
+          </h3>
         </div>
-      </aside>
+        <ul class="timeline">
+          <li>
+            <div class="timeline-image">
+              <img
+                class="rounded-circle img-fluid"
+                src="assets/img/nosotros/1.jpg"
+                alt="..."
+              />
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="subheading">Somos Cosmere Book Delivery</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">
+                  Nos dedicamos a la venta y envio de libros exclusivos del
+                  Cosmere escrito por Brandon Sanderson. Hacemos entregas a
+                  todas partes del país y contamos con servicio al cliente.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img
+                class="rounded-circle img-fluid"
+                src="assets/img/nosotros/2.jpg"
+                alt="..."
+              />
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="subheading">Objetivos y Metas</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">
+                  Nuestro objetivo principal fomentar la lectura de esta saga
+                  brindando el mejor servicio para lograr expandir la comunidad
+                  del Cosmere y crecer como emprenderores.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li>
+            <div class="timeline-image">
+              <img
+                class="rounded-circle img-fluid"
+                src="assets/img/nosotros/3.jpg"
+                alt="..."
+              />
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="subheading">Apoyando a la Comunidad</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">
+                  La comunida del Cosmere este creciendo exponencialmete y
+                  queremos apoyar a ese crecimiento, ya que todavia no es
+                  conocida fuera del circulo de seguidores.
+                </p>
+              </div>
+            </div>
+          </li>
+          <li class="timeline-inverted">
+            <div class="timeline-image">
+              <img
+                class="rounded-circle img-fluid"
+                src="assets/img/nosotros/4.jpg"
+                alt="..."
+              />
+            </div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h4 class="subheading">Futuros Proyectos</h4>
+              </div>
+              <div class="timeline-body">
+                <p class="text-muted">
+                  Queremos expandir catalogo con mas obras de Brandor Sanderson
+                  no pertenecientes al Cosmere, como tambien agregar
+                  merchandising de las sagas.
+                </p>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </section>
-    <div class="container">
-      <div class="row">
-        <div class="card col-sm-12 col-md-6 col-lg-3" style="width: 18rem;">
-          <img src="img/card1.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Enchiladas</h5>
-            <p class="card-text">Las tortillas dobladas y rellenas, bañadas de alguna salsa, podrían reemplazar el centro de la bandera de México. Las más populares son las suizas (que no tienen nada de europeas), las rojas, las verdes (y mejor si son gratinadas).</p>
-            <a href="https://www.comedera.com/platos-comida-mexicana-recetas/" target="_blank" class="btn btn-primary">Ir a la receta</a>
+    <!-- Services-->
+    <section class="page-section" id="services">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">Servicios</h2>
+          <h3 class="section-subheading text-muted">
+            Brindamos a nuestros cliente:
+          </h3>
+        </div>
+        <div class="row text-center prueba2">
+          <div class="col-md-4 prueba">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-shopping-cart fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="my-3">E-Commerce</h4>
+            <p class="text-muted">
+              Brindamos un sitio donde puede consultar el catalogo, realizar la
+              compra online y se le envia a la puerta.
+            </p>
+          </div>
+          <div class="col-md-4 prueba">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-laptop fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="my-3">Diseño Responsive</h4>
+            <p class="text-muted">
+              El diseño de nuestra pagina web cuenta con diseño responsive, lo
+              que facilita su manejo tanto en computadoras de sobremesa,
+              laptops, tablets y smart phones.
+            </p>
+          </div>
+          <div class="col-md-4 prueba">
+            <span class="fa-stack fa-4x">
+              <i class="fas fa-circle fa-stack-2x text-primary"></i>
+              <i class="fas fa-lock fa-stack-1x fa-inverse"></i>
+            </span>
+            <h4 class="my-3">Seguridad y Confianza</h4>
+            <p class="text-muted">
+              Brindamos un alto sistema de seguridad y atencion al cliente,
+              estamos a su disposicion para solucionar cualquier inconveniente.
+            </p>
           </div>
         </div>
-        <div class="card col-sm-12 col-md-6 col-lg-3" style="width: 18rem;">
-          <img src="img/card2.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Tacos al Pastor</h5>
-            <p class="card-text">Si los habitantes de la Ciudad de México tuvieran que llevarse una sola comida a una isla desierta, muy probablemente sería ésta. Están influenciados por la cocina del Imperio Otomano, y mezclan carne marinada de puerco en trompo (sí, parecido al de shawarma) con tortilla de maíz, piña, cebolla, cilantro, y dosis al gusto de limón y salsa picante.</p>
-            <a href="https://www.comedera.com/platos-comida-mexicana-recetas/" target="_blank" class="btn btn-primary">Ir a la receta</a>
+      </div>
+    </section>
+    <!-- Team-->
+    <section class="page-section bg-light" id="team">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">Nuestro equipo</h2>
+          <h3 class="section-subheading text-muted"></h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/1.jpg"
+                alt="..."
+              />
+              <h4>Jeremías Vea Murguía</h4>
+              <p class="text-muted">CEO & Lead Designer</p>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://twitter.com/JeremiasVea"
+                target="_blank"
+                aria-label="Parveen Anand Twitter Profile"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://twitter.com/JeremiasVea"
+                target="_blank"
+                aria-label="Parveen Anand Facebook Profile"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://www.linkedin.com/in/jerem%C3%ADas-vea-murgu%C3%ADa/"
+                target="_blank"
+                aria-label="Parveen Anand LinkedIn Profile"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/2.jpg"
+                alt="..."
+              />
+              <h4>Valentin Vea Murguía</h4>
+              <p class="text-muted">Corporate Associate</p>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://twitter.com/JeremiasVea"
+                target="_blank"
+                aria-label="Parveen Anand Twitter Profile"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="#!"
+                aria-label="Parveen Anand Facebook Profile"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://www.linkedin.com/in/jerem%C3%ADas-vea-murgu%C3%ADa/"
+                target="_blank"
+                aria-label="Parveen Anand LinkedIn Profile"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/3.jpg"
+                alt="..."
+              />
+              <h4>Enzo Choque</h4>
+              <p class="text-muted">Logistic Manager</p>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://twitter.com/JeremiasVea"
+                target="_blank"
+                aria-label="Parveen Anand Twitter Profile"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="#!"
+                aria-label="Parveen Anand Facebook Profile"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://www.linkedin.com/in/jerem%C3%ADas-vea-murgu%C3%ADa/"
+                target="_blank"
+                aria-label="Parveen Anand LinkedIn Profile"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/4.jpg"
+                alt="..."
+              />
+              <h4>Diana Gonzalez</h4>
+              <p class="text-muted">Copywriting Coodirnator</p>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://twitter.com/JeremiasVea"
+                target="_blank"
+                aria-label="Diana Petersen Twitter Profile"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="#!"
+                aria-label="Diana Petersen Facebook Profile"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://www.linkedin.com/in/jerem%C3%ADas-vea-murgu%C3%ADa/"
+                target="_blank"
+                aria-label="Diana Petersen LinkedIn Profile"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="team-member">
+              <img
+                class="mx-auto rounded-circle"
+                src="assets/img/team/5.jpg"
+                alt="..."
+              />
+              <h4>Nicolas Pacheco</h4>
+              <p class="text-muted">Lead Developer</p>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://twitter.com/JeremiasVea"
+                target="_blank"
+                aria-label="Larry Parker Twitter Profile"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="#!"
+                aria-label="Larry Parker Facebook Profile"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a
+                class="btn btn-dark btn-social mx-2"
+                href="https://www.linkedin.com/in/jerem%C3%ADas-vea-murgu%C3%ADa/"
+                target="_blank"
+                aria-label="Larry Parker LinkedIn Profile"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
           </div>
         </div>
-        <div class="card col-sm-12 col-md-6 col-lg-3" style="width: 18rem;">
-          <img src="img/card3.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">quesadillas</h5>
-            <p class="card-text">Suena loco, pero en México no todas las quesadillas tienen queso, o al menos eso depende de la región dónde te encuentres. En la Ciudad de México, las quesadillas pueden ser de pollo, hongos, camarones y un largo etcétera. En síntesis, se trata de tortillas de maíz o trigo que se doblan y rellenan, y se cocinan sobre una plancha o fritas.</p>
-            <a href="https://www.comedera.com/platos-comida-mexicana-recetas/" target="_blank" class="btn btn-primary">Ir a la receta</a>
+      </div>
+    </section>
+    <!-- Portfolio Grid-->
+    <section class="page-section" id="portfolio">
+      <div class="container --bs-gray-900">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">Sagas</h2>
+          <h3 class="section-subheading text-muted">
+            El Cosmere ya cuenta con 5 sagas y un total de 15 libros, Empiza tu
+            aventura.
+          </h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 1-->
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                data-bs-toggle="modal"
+                href="#portfolioModal1"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/1.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">
+                  El Archivo de las Tormentas
+                </div>
+                <div class="portfolio-caption-subheading text-muted">
+                  4 Libros - 2 Relatos Cortos
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 2-->
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                data-bs-toggle="modal"
+                href="#portfolioModal2"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/2.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Nacidos de la Bruma</div>
+                <div class="portfolio-caption-subheading text-muted">
+                  7 Libros - 3 Relatos Cortos
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4">
+            <!-- Portfolio item 3-->
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                data-bs-toggle="modal"
+                href="#portfolioModal3"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/3.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">
+                  El Aliento de los Dioses
+                </div>
+                <div class="portfolio-caption-subheading text-muted">
+                  1 Libro
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4 mb-lg-0">
+            <!-- Portfolio item 4-->
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                data-bs-toggle="modal"
+                href="#portfolioModal4"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/4.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Elantris</div>
+                <div class="portfolio-caption-subheading text-muted">
+                  1 Libro - 2 Relatos Cortos
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 mb-4 mb-sm-0">
+            <!-- Portfolio item 5-->
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                data-bs-toggle="modal"
+                href="#portfolioModal5"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/5.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Arena Blanca</div>
+                <div class="portfolio-caption-subheading text-muted">
+                  1 Libro
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6">
+            <!-- Portfolio item 6-->
+            <div class="portfolio-item">
+              <a
+                class="portfolio-link"
+                data-bs-toggle="modal"
+                href="#portfolioModal6"
+              >
+                <div class="portfolio-hover">
+                  <div class="portfolio-hover-content">
+                    <i class="fas fa-plus fa-3x"></i>
+                  </div>
+                </div>
+                <img
+                  class="img-fluid"
+                  src="assets/img/portfolio/6.jpg"
+                  alt="..."
+                />
+              </a>
+              <div class="portfolio-caption">
+                <div class="portfolio-caption-heading">Arcanum Ilimitado</div>
+                <div class="portfolio-caption-subheading text-muted">
+                  1 Libro de Relatos Cortos
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div class="card col-sm-12 col-md-6 col-lg-3" style="width: 18rem;">
-          <img src="img/card4.jpg" class="card-img-top" alt="...">
-          <div class="card-body">
-            <h5 class="card-title">Birra</h5>
-            <p class="card-text">Injustamente menos conocido, se trata de un plato de trozos de borrego cocidos en agua y en su jugo. Los chiles, claro, le dan un gusto totalmente particular, pero tremendo.</p>
-            <a href="https://www.comedera.com/platos-comida-mexicana-recetas/" target="_blank" class="btn btn-primary">Ir a la receta</a>
+      </div>
+    </section>
+    <!-- Contact-->
+    <section class="page-section" id="contact">
+      <div class="container">
+        <div class="text-center">
+          <h2 class="section-heading text-uppercase">Contactanos</h2>
+          <h3 class="section-subheading text-muted">
+            Estamos a su disposicion.
+          </h3>
+        </div>
+        <form id="contactForm" data-sb-form-api-token="API_TOKEN">
+          <div class="row align-items-stretch mb-5">
+            <div class="col-md-6">
+              <div class="form-group">
+                <!-- Name input-->
+                <input
+                  class="form-control"
+                  id="name"
+                  type="text"
+                  placeholder="Nombre *"
+                  data-sb-validations="required"
+                />
+                <div class="invalid-feedback" data-sb-feedback="name:required">
+                  Ingrese su nombre.
+                </div>
+              </div>
+              <div class="form-group">
+                <!-- Email address input-->
+                <input
+                  class="form-control"
+                  id="email"
+                  type="email"
+                  placeholder="Email *"
+                  data-sb-validations="required,email"
+                />
+                <div class="invalid-feedback" data-sb-feedback="email:required">
+                  Ingrese su e-mail.
+                </div>
+                <div class="invalid-feedback" data-sb-feedback="email:email">
+                  Email invalido.
+                </div>
+              </div>
+              <div class="form-group mb-md-0">
+                <!-- Phone number input-->
+                <input
+                  class="form-control"
+                  id="phone"
+                  type="tel"
+                  placeholder="Numero de telefono *"
+                  data-sb-validations="required"
+                />
+                <div class="invalid-feedback" data-sb-feedback="phone:required">
+                  Ingrese su numero de telefono.
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="form-group form-group-textarea mb-md-0">
+                <!-- Message input-->
+                <textarea
+                  class="form-control"
+                  id="message"
+                  placeholder="Escriba su mensaje aqui *"
+                  data-sb-validations="required"
+                ></textarea>
+                <div
+                  class="invalid-feedback"
+                  data-sb-feedback="message:required"
+                >
+                  Mensaje requerido.
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Submit success message-->
+          <!---->
+          <!-- This is what your users will see when the form-->
+          <!-- has successfully submitted-->
+          <div class="d-none" id="submitSuccessMessage">
+            <div class="text-center text-white mb-3">
+              <div class="fw-bolder">Mensaje enviado correctamente!</div>
+            </div>
+          </div>
+          <!-- Submit error message-->
+          <!---->
+          <!-- This is what your users will see when there is-->
+          <!-- an error submitting the form-->
+          <div class="d-none" id="submitErrorMessage">
+            <div class="text-center text-danger mb-3">
+              Error al enviar el mensaje!
+            </div>
+          </div>
+          <!-- Submit Button-->
+          <div class="text-center">
+            <button
+              class="btn btn-primary btn-xl text-uppercase disabled"
+              id="submitButton"
+              type="submit"
+            >
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- Footer-->
+    <footer class="footer py-4">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-4 text-lg-start">
+            Copyright &copy; Your Website 2022
+          </div>
+          <div class="col-lg-4 my-3 my-lg-0">
+            <a
+              class="btn btn-dark btn-social mx-2"
+              href="https://twitter.com/JeremiasVea"
+              target="_blank"
+              aria-label="Twitter"
+              ><i class="fab fa-twitter"></i
+            ></a>
+            <a
+              class="btn btn-dark btn-social mx-2"
+              href="#!"
+              aria-label="Facebook"
+              ><i class="fab fa-facebook-f"></i
+            ></a>
+            <a
+              class="btn btn-dark btn-social mx-2"
+              href="https://www.linkedin.com/in/jerem%C3%ADas-vea-murgu%C3%ADa/"
+              target="_blank"
+              aria-label="LinkedIn"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+          <div class="col-lg-4 text-lg-end">
+            <a class="link-dark text-decoration-none me-3" href="#!"
+              >Privacy Policy</a
+            >
+            <a class="link-dark text-decoration-none" href="#!">Terms of Use</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Portfolio Modals-->
+    <!-- Portfolio item 1 modal popup-->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal1"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal">
+            <img src="assets/img/close-icon.svg" alt="Close modal" />
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">EL Archivo de las Tormentas</h2>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Libros:</strong>
+                    </li>
+                    <li>
+                      El Camino de los Reyes
+                    </li>
+                    <li>
+                      Palabras Radiantes
+                    </li>
+                    <li>
+                      Juramentada
+                    </li>
+                    <li>
+                      Ritmos de Guerra
+                    </li>
+                  </ul>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Relatos Cortos:</strong>
+                    </li>
+                    <li>
+                      Danzante del Filo ( Arcanum Ilimitado )
+                    </li>
+                    <li>
+                      Esquirla del Amanecer
+                    </li>
+                  </ul>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/1.jpg"
+                    alt="..."
+                  />
+                  <p>
+                    Anhelo los días previos a la Última Desolación. Los días en que los Heraldos nos abandonaron y los Caballeros Radiantes se giraron en nuestra contra. Un tiempo en que aún había magia en el mundo y honor en el corazón de los hombres. El mundo fue nuestro, pero lo perdimos. Probablemente no hay nada más estimulante para las almas de los hombres que la victoria. ¿O tal vez fue la victoria una ilusión durante todo ese tiempo? ¿Comprendieron nuestros enemigos que cuanto más duramente luchaban, más resistíamos nosotros? Quizá vieron que el fuego y el martillo tan solo producían mejores espadas. Pero ignoraron el acero durante el tiempo suficiente para oxidarse. Hay cuatro personas a las que observamos. La primera es el médico, quien dejó de curar para convertirse en soldado durante la guerra más brutal de nuestro tiempo. La segunda es el asesino, un homicida que llora siempre que mata. La tercera es la mentirosa, una joven que viste un manto de erudita sobre un corazón de ladrona. Por último está el alto príncipe, un guerrero que mira al pasado mientras languidece su sed de guerra. El mundo puede cambiar. La potenciación y el uso de las esquirlas pueden aparecer de nuevo, la magia de los días pasados puede volver a ser nuestra. Esas cuatro personas son la clave. Una de ellas nos redimirá. Y una de ellas nos destruirá.
+                  </p>
+                  <a class="btn btn-primary btn-xl text-uppercase" href="/market.html" role="button">
+                    <i class="fa-solid fa-shop me-1"></i>
+                    Ir a la Tienda
+                  </a>
+                  <button
+                    class="btn btn-primary btn-danger btn-xl text-uppercase"
+                    data-bs-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-xmark me-1"></i>
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-    <footer>
-      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4641.8196331834915!2d-58.66596257709746!3d-34.6480821499793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcbf4336751cb1%3A0x8b3d2ac2bc2c5958!2sBacacay%20404!5e0!3m2!1ses-419!2sar!4v1665710601282!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-      <div class="iconFlex">
-        <a href="https://wa.me/5491123951736" target="_blank">
-          <img src="img/wha.png" alt="Error al cargar la imagen" class="icon"></img>
-        </a>
-        <a href="https://es-la.facebook.com/" target="_blank">
-          <img src="img/face.png" alt="Error al cargar la imagen" class="icon"></img>
-        </a>
-        <a href="https://www.instagram.com/" target="_blank">
-          <img src="img/inst.png" alt="Error al cargar la imagen" class="icon"></img>
-        </a>
-        <a href="https://www.youtube.com/" target="_blank">
-          <img src="img/ytb.png" alt="Error al cargar la imagen" class="icon"></img>
-        </a>
+    <!-- Portfolio item 2 modal popup-->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal2"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal">
+            <img src="assets/img/close-icon.svg" alt="Close modal" />
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Nacideos de la Bruma</h2>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Libros:</strong>
+                    </li>
+                    <li>
+                      El Imperio Final
+                    </li>
+                    <li>
+                      EL Pozo de la Ascencion
+                    </li>
+                    <li>
+                      EL Heroe de las Eras
+                    </li>
+                    <li>
+                      Alecion de Ley
+                    </li>
+                    <li>
+                      Sombras de Identidad
+                    </li>
+                    <li>
+                      Brazales de Duelo
+                    </li>
+                    <li>
+                      EL Metal Perdido
+                    </li>
+                  </ul>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Relatos Cortos:</strong>
+                    </li>
+                    <li>
+                      El Undecimo Metal ( Arcanum Ilimitado )
+                    </li>
+                    <li>
+                      Alomante Jak y los pozos de Eltania ( Arcanum Ilimitado )
+                    </li>
+                    <li>
+                      Historia Secreta ( Arcanum Ilimitado )
+                    </li>
+                  </ul>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/2.jpg"
+                    alt="..."
+                  />
+                  <p>
+                    Durante mil años han caído las cenizas y nada florece. Durante mil años los skaa han sido esclavizados y viven sumidos en un miedo inevitable. Durante mil años el Lord Legislador reina con un poder absoluto gracias al terror, a sus poderes e inmortalidad, junto a la poderosa magia de la Alomancia que solo la poseen el y los nobles elegidos. Pero los nobles a menudo han tenido trato sexual con jóvenes skaa y, aunque la ley lo prohíbe, algunos de sus bastardos han sobrevivido y heredado los poderes alománticos. Ahora Kelsier apodado El Superviviente, el único que ha logrado huir de los Pozos de Hathsin, prision-mina donde se manda a los delicuentes a morir, ha encontrado a Vin, una pobre chica skaa con mucha suerte... Tal vez los dos, unidos a la rebelión que los skaa intentan desde hace mil años, logren cambiar el mundo y la atroz dominación del Lord Legislador.
+                  </p>
+                  <a class="btn btn-primary btn-xl text-uppercase" href="/market.html" role="button">
+                    <i class="fa-solid fa-shop me-1"></i>
+                    Ir a la Tienda
+                  </a>
+                  <button
+                    class="btn btn-primary btn-danger btn-xl text-uppercase"
+                    data-bs-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-xmark me-1"></i>
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <section>
-        <h3>Jermías Vea Murguía</h3>
-        <h3>jeremiasveamurguia@hotmail.com</h3>
-        <a href="https://www.linkedin.com/in/jerem%C3%ADas-vea-murgu%C3%ADa/" target="_blank"><h3 class="aH3">Linkedin</h3></a>
-        <a href="https://github.com/JereVea/PD-VeaMurguiaJeremias" target="_blank"><h3 class="aH3">GitHub</h3></a>
-      </section>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    </div>
+    <!-- Portfolio item 3 modal popup-->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal3"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal">
+            <img src="assets/img/close-icon.svg" alt="Close modal" />
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">El Aliento de los Dioses</h2>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Libros:</strong>
+                    </li>
+                    <li>
+                      El Aliento de los Dioses
+                    </li>
+                  </ul>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/3.jpg"
+                    alt="..."
+                  />
+                  <p>
+                    Hace años, el monarca de Idris firmó un tratado con el reino de Hallandren según el cual el rey Dedelin enviaría a su hija mayor, Vivenna, para casarse con Susebron, el rey-dios de Hallabdren. Vivenna ha sido adiestrada durante toda su vida para ser una novia adecuada para Susebron y así cumplir con su deber y ayudar a forjar una paz estable entre los dos reinos. Ese era el plan, pero el monarca de Idris envía a su hija Siri, desobediente e independiente, en lugar de Vivenna.
+                    Mientras intenta encontrar su lugar en la corte de Susebron, Siri descubre la verdad oculta sobre el rey-dios. En Idris, Vivenna se siente intranquila y teme que su hermana no esté preparada para esa nueva vida, por lo que decide viajar a Hallandren. Allí se reúne con la gente de Idris que trabaja en la capital, T'Telir, y comienza una nueva vida de espionaje y sabotaje. El plan de Vivenna es rescatar a Siri, aunque tal vez esta ni necesite ni desee ser salvada.
+                  </p>
+                  <a class="btn btn-primary btn-xl text-uppercase" href="/market.html" role="button">
+                    <i class="fa-solid fa-shop me-1"></i>
+                    Ir a la Tienda
+                  </a>
+                  <button
+                    class="btn btn-primary btn-danger btn-xl text-uppercase"
+                    data-bs-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-xmark me-1"></i>
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio item 4 modal popup-->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal4"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal">
+            <img src="assets/img/close-icon.svg" alt="Close modal" />
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Elantris</h2>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Libros:</strong>
+                    </li>
+                    <li>
+                      Elantris
+                    </li>
+                  </ul>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Relatos Cortos:</strong>
+                    </li>
+                    <li>
+                      La Esperanza de Elantris ( Arcanum Ilimitado )
+                    </li>
+                    <li>
+                      El Alma del Emperador ( Arcanum Ilimitado )
+                    </li>
+                  </ul>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/4.jpg"
+                    alt="..."
+                  />
+                  <p>
+                    Elantris ha caído en desgracia. Ahora solo acoge a los nuevos «muertos en vida», postrados en una insufrible «no-vida» tras una misteriosa y terrible transformación.Un matrimonio de Estado destinado a unir los reinos de Arelon y Teod se frustra, ya que el novio, Raoden, el príncipe de Arelon, sufre inesperadamente la Transformación, se convierte en un «muerto en vida» y debe refugiarse en Elantris. Su reciente esposa, la princesa Sarene de Teod, creyéndolo muerto, se ve obligada a incorporarse a la vida de Arelon y su nueva capital, Kae. Mientras, el embajador y alto sacerdote de otro reino vecino, Fjordell, usará su habilidad política para intentar dominar Arelod y Teod con el propósito de someterlos a su emperador y su dios.
+                  </p>
+                  <a class="btn btn-primary btn-xl text-uppercase" href="/market.html" role="button">
+                    <i class="fa-solid fa-shop me-1"></i>
+                    Ir a la Tienda
+                  </a>
+                  <button
+                    class="btn btn-primary btn-danger btn-xl text-uppercase"
+                    data-bs-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-xmark me-1"></i>
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio item 5 modal popup-->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal5"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal">
+            <img src="assets/img/close-icon.svg" alt="Close modal" />
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Arena Blanca</h2>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Comic:</strong>
+                    </li>
+                    <li>
+                      Arena Blanca
+                    </li>
+                  </ul>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/5.jpg"
+                    alt="..."
+                  />
+                  <p>
+                    En el planeta Taldain, los legendarios maestros de arena poseen poderes arcanos que les confieren un control espectacular sobre el elemento del que toman su nombre. Pero cuando una siniestra conspiración se salda con su desaparición violenta, el más débil de ellos, Kenton, cree haber sido el único superviviente. Cercado por sus adversarios desde todos los frentes, Kenton forja una improbable alianza con Khriss, una misteriosa «ladoscura» que oculta sus propios secretos.
+                  </p>
+                  <a class="btn btn-primary btn-xl text-uppercase" href="/market.html" role="button">
+                    <i class="fa-solid fa-shop me-1"></i>
+                    Ir a la Tienda
+                  </a>
+                  <button
+                    class="btn btn-primary btn-danger btn-xl text-uppercase"
+                    data-bs-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-xmark me-1"></i>
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Portfolio item 6 modal popup-->
+    <div
+      class="portfolio-modal modal fade"
+      id="portfolioModal6"
+      tabindex="-1"
+      role="dialog"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="close-modal" data-bs-dismiss="modal">
+            <img src="assets/img/close-icon.svg" alt="Close modal" />
+          </div>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-8">
+                <div class="modal-body">
+                  <!-- Project details-->
+                  <h2 class="text-uppercase">Arcanum Ilimitado</h2>
+                  <ul class="list-inline">
+                    <li>
+                      <strong>Libros:</strong>
+                    </li>
+                    <li>
+                      Arcanum Ilimitado
+                    </li>
+                  </ul>
+                  <img
+                    class="img-fluid d-block mx-auto"
+                    src="assets/img/portfolio/6.jpg"
+                    alt="..."
+                  />
+                  <p>
+                    La esperada antología de relatos y novelas cortas del Cosmere,el universo que Brandon Sanderson convertirá en la saga fantástica más extensa e impresionante jamás escrita. Brandon Sandersoncrea mundos, y esos mundos están conectados. Su universo se expandepor las sagas El Archivo de las Tormentas y Nacidos de la Bruma(Mistborn), también por obras como Elantris, construyendo unaconstelación de reinos llamado Cosmere. Ahora este espectacular volumen recopila, por primera vez, nueve relatos y novelas cortasrepresentativos de cada uno de esos mundos, con sus distintos sistemas de magia.
+                  </p>
+                  <a class="btn btn-primary btn-xl text-uppercase" href="/market.html" role="button">
+                    <i class="fa-solid fa-shop me-1"></i>
+                    Ir a la Tienda
+                  </a>
+                  <button
+                    class="btn btn-primary btn-danger btn-xl text-uppercase"
+                    data-bs-dismiss="modal"
+                    type="button"
+                  >
+                    <i class="fas fa-xmark me-1"></i>
+                    Cerrar
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://use.fontawesome.com/releases/v6.1.0/js/all.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
   </body>
 </html>
