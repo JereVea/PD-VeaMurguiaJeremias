@@ -11,7 +11,7 @@ let libros = [];
 
 armarHTML = async () => {
   
-  const respons = await fetch("../json/json.json");
+  const respons = await fetch("json/json.json");
   const array = await respons.json();
 
   libros = array;
