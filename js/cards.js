@@ -10,11 +10,14 @@ class Libro {
 let libros = [];
 
 armarHTML = async () => {
+  console.log(1);
   const respons = await fetch("../json/json.json");
+   console.log(2);
   const array = await respons.json();
+   console.log(3);
 
   libros = array;
-
+   console.log(4);
   const contenedor = document.getElementById("contenedor");
   let i = 0;
 
