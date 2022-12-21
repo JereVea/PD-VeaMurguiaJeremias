@@ -1,4 +1,3 @@
-/*
 class Libro {
   constructor(titulo, saga, portada, rating, precio) {
     this.titulo = titulo;
@@ -8,7 +7,6 @@ class Libro {
     this.precio = precio;
   }
 }
-*/
 
 let libros = [
   {
@@ -154,8 +152,6 @@ armarHTML = async () => {
         const img = document.createElement("img");
         img.className = "card-img-top";
         img.src =  libro.portada;
-        //img.src = 'assets/img/books/'+i+'.png';
-        //i++;
 
         const cardbody = document.createElement("div");
         cardbody.className = "card-body p-4";
